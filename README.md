@@ -31,12 +31,13 @@ make
 * [`dpu/`](./dpu) contains source files for the DPU program
 * [`host/`](./host) contains source files for the host program
 * [`include/`](./include) contains header files for the DPU and host programs
+* [`baselines/`](./baselines) contains source files for CPU baselines
 
 
 ## Configurations
 
 | Configurations | Files |
 | --- | --- |
-| Design alternatives | [`CMakeLists.txt`](./CMakeLists.txt) [`Makefile`](./Makefile) [`main.cpp`](./main.cpp) [`include/pimindex.h`](./include/pimindex.h), [`run.sh`](./run.sh) |
+| Design alternatives | [`CMakeLists.txt`](./CMakeLists.txt) [`Makefile`](./Makefile) [`main.cpp`](./main.cpp) [`include/pimindex.h`](./include/pimindex.h) [`run.sh`](./run.sh) |
 | Implementation parameters | [`include/<implementation>.h`](./include/) |
 | DPU parameters | [`Makefile`](./Makefile) [`include/<implementation>.h`](./include/) [`run.sh`](./run.sh) |
